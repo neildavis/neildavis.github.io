@@ -1,6 +1,4 @@
-# Neil Davis' GitHub
-
-Welcome to my coding corner of the interweb
+# Welcome
 
 Here you will find links to my various projects and some articles
 about them.
@@ -48,7 +46,7 @@ I make a gamepad controller that's used in my
 
 ## iOS Stuff
 
-### JSON-PRC Proxy
+### JSON-RPC Proxy
 
 A [JSON-RPC 2.0](https://www.jsonrpc.org/specification)
 proxy for protocols in Swift & Objective-C.
