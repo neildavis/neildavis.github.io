@@ -14,6 +14,14 @@ unimaginable in their original lifetime.
 Can I convert an old LCD based tabletop game to play the full Sega arcade original?
 Find out [here](projects/ab/index.md)
 
+### Tomy Turnin' Turbo Dashboard - Out Run & RealDash Conversion
+
+My first retro-mod. After inspiration from [Circuitbeard](https://github.com/circuitbeard),
+I converted a Tomy Turnin' Turbo Dashboard toy from the 1980s to play Sega's Out Run
+arcade classic!
+
+More details [here](projects/tttdor/index.md)
+
 ## Embedded & Microcontroller Stuff
 
 Modern microcontrollers are such fun to work with.
