@@ -17,7 +17,7 @@ did not compare well with the original arcade game which cost tens of thousands 
 
 Thirty years later, we now have the ability to play arcade games from that era on
 inexpensive Single Board Computers (SBCs) like the
-[Raspberry Pi](https://www.raspberrypi.com/products/)
+[Raspberry Pi](https://www.raspberrypi.com/products/).
 So can we now convert the tabletop game to play the original arcade game?
 
 <div style="position: relative; padding-bottom: 56.19%; clip-path: inset(2px 2px)">
@@ -28,3 +28,6 @@ So can we now convert the tabletop game to play the original arcade game?
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
  allowfullscreen></iframe>
 </div>
+
+I posted some updates on the project on my [Instagram](https://www.instagram.com/neilsnonsense/)
+which will be mostly repeated here, but with more focus on the software side of things.
