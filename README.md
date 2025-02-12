@@ -105,6 +105,8 @@ This was a fun way to learn about
 under Linux whilst relieving clients of a build-time link dependency on any particular 
 GPIO library.
 
+More details and source are available in [this repo](https://github.com/neildavis/lib_tm1637_rpi)
+
 [](https://github.com/neildavis/lib_tm1637_rpi)
 
 ## iOS Stuff
