@@ -51,6 +51,18 @@ In addition, for the digital dashboard I used:
 * A couple of [USB Type A extension cords](https://www.amazon.co.uk/gp/product/B01JGQA5AI/) for keyboard/mouse access to the SBCs.
 * The shortest [CAT5 Ethernet Crossover Cable](https://www.amazon.co.uk/gp/product/B004WCUQVA/) I could find to connect the Rapsberry Pi and Odroid C2.
 
+### Code
+
+Here are links to my GitHub repos used in the project:
+
+* [RealDashCanServerQt](https://github.com/neildavis/RealDashCanServerQt) is a small server
+that uses [D-Bus](https://en.wikipedia.org/wiki/D-Bus) for IPC that can read some game metrics
+(Speed, Revs, Fuel, Gear) from the game client and send them to RealDash via TCP/IP (peer-to-peer ethernet)
+* My fork of the [Cannonball](https://github.com/neildavis/cannonball/tree/real_dash)
+Out Run engine, modified to output the metrics to RealDash via RealDashCanServerQt
+
+By utilizing the separate RealDashCanServerQt server the game is not lagged by network operations. Instead it just asynchronously dumps data onto D-Bus.
+
 ## The Results
 
 Here is one of [four videos](https://youtube.com/playlist?list=PLQ_4oitDNP0Kvj-5Dz6GW-dXBUhQebKhl)

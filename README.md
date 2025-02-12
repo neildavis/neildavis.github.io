@@ -14,6 +14,16 @@ unimaginable in their original lifetime.
 Can I convert an old LCD based tabletop game to play the full Sega arcade original?
 Find out [here](projects/ab/index.md)
 
+### Verbot-Pi
+
+The idea was to replace the 80s era electronics in the Tomy Verbot with modern technology
+to improve on the poor voice recognition of the original toy. 
+As a bonus we gain AIY Google Voice Assistant capabilities!
+
+Beyond voice recognitiopn, the intent was to retain all of the other existing mechanical operation parts from the original toy, instead of replacing these with servos, stepper motors etc which would have been a much greater and more expensive project!
+
+Find out more [here](projects/verbotpi/index.md)
+
 ### Tomy Turnin' Turbo Dashboard - Out Run & RealDash Conversion
 
 My first retro-mod. After inspiration from [Circuitbeard](https://github.com/circuitbeard),

@@ -44,4 +44,14 @@ which will be mostly repeated here, but with more focus on the software side of 
 
 ## The Results
 
-This project is still WIP. Stay tuned for more updates!
+Here is one of [four videos](https://www.youtube.com/playlist?list=PLQ_4oitDNP0K-VOo9uvk5NYDAGVgvXmd8)
+from my [YouTube channel](https://www.youtube.com/c/NeilsNonsense) showing the completed project:
+
+<div style="position: relative; padding-bottom: 56.19%; clip-path: inset(2px 2px)">
+<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
+ src="https://www.youtube.com/embed/KxgmwC9LNg8" 
+ title="YouTube video player" 
+ frameborder="0" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+ allowfullscreen></iframe>
+</div>
