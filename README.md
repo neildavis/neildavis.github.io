@@ -81,3 +81,49 @@ demonstrate use of the proxy in Swift to create
 [Combine](https://developer.apple.com/documentation/combine) framework.
 
 Sound cool? Find out more [here](https://github.com/neildavis/json-rpc-proxy)
+
+## Amiga stuff
+
+There has been a resurgence of interest in 'Retro' consoles & Computers recently.
+I was inspired to retrieve my old [Commodore Amiga A500+](https://en.wikipedia.org/wiki/Amiga)
+from my parents' atic and see if it still worked. 
+
+It didn't, but after a [Refurb/Rebuild project](https://www.instagram.com/reel/CzQ4ar6osu_/)
+I was able to do some fun things with it:
+
+### Amiga A500 Keyboard Tester
+
+As part of the refurb I needed to test the keyboard controller, so I developed this little
+[Arduino based utility](https://github.com/neildavis/amiga_keyboard_tester)
+to be sure my keyboard was working correctly.
+
+### Amiga ASM Development Workflow
+
+With working hardware I decided I wanted a taste of Amiga game development from 'back in the day.' 
+Despite many advances that now allow Amiga development to be performed on modern PCs and OSs, 
+I found there was a lack of automated workflows, particularly under Linux.
+
+During development of my game I developed a [GNU Make](https://www.gnu.org/software/make/)
+based workflow to integrate various tools into an end-to-end automated CI/CD pipleline.
+It made sense to open source this aspect of the project so I created 
+[this repo](https://github.com/neildavis/amiga_asmdev_workflow) to demonstrate it's use
+on a small demo application with the aim of sharing it with other members of the Amiga dev community.
+
+### Riviera '79 / AmiGameJam 2024
+
+I decided to port Sega's 1979 'Monaco GP' arcade game to the Amiga, since it never received an
+official port. Since I was already working with Ben Geeves on his
+[PC remake](http://forum.arcadecontrols.com/index.php?topic=134445.0)
+of the same game I could reuse graphical and audio components after some conversion.
+
+The end result is [Riviera '79](https://nngaming.itch.io/riviera-79)
+which was entered into the AmiGameJam 2024 competition.
+
+<div style="position: relative; padding-bottom: 56.19%; clip-path: inset(2px 2px)">
+<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
+ src="https://www.youtube.com/embed/TT05mwjG4GM" 
+ title="YouTube video player" 
+ frameborder="0" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+ allowfullscreen></iframe>
+</div>
