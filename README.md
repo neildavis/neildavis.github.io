@@ -20,7 +20,7 @@ The idea was to replace the 80s era electronics in the Tomy Verbot with modern t
 to improve on the poor voice recognition of the original toy. 
 As a bonus we gain AIY Google Voice Assistant capabilities!
 
-Beyond voice recognitiopn, the intent was to retain all of the other existing mechanical operation parts from the original toy, instead of replacing these with servos, stepper motors etc which would have been a much greater and more expensive project!
+Beyond voice recognition, the intent was to retain all of the other existing mechanical operation parts from the original toy, instead of replacing these with servos, stepper motors etc which would have been a much greater and more expensive project!
 
 Find out more [here](projects/verbotpi/index.md)
 

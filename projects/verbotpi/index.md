@@ -39,7 +39,7 @@ This project makes use of:
 
 All of the code required to drive Verbot and Google AIY is in my
 [Verbot-Pi](https://github.com/neildavis/verbot-pi) repo which also contains more technical
-information on how Verbot's oriignal mechanical components (motors & gears) are interfaced
+information on how Verbot's original mechanical components (motors & gears) are interfaced
 with the Rapsberry Pi.
 
 ## Results
