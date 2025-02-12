@@ -59,8 +59,53 @@ on a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/
 devices easy!
 
 In [this repo](https://github.com/neildavis/teensy_hid_gamepad)
-I make a gamepad controller that's used in my
+I make a gamepad controller that's used (amongst others) in my
 [After Burner](projects/ab/index.md) project.
+
+## Raspberry Pi Stuff
+
+### Linux / RPi USB HID & ALSA integration
+
+With the deprecation of Pimoroni's [Picade PCB](https://www.adafruit.com/product/2708)
+I was left with a need for alternative hardware to fill it's place.
+The main requirements were:
+
+* Digital AND Analog game controller inputs
+* Audio amplification for small speakers
+* Volume control inputs
+
+Controller inputs were fulfilled using various microcontrollers to act as USB HID controllers
+like my [Teensy HID gamepad](https://github.com/neildavis/teensy_hid_gamepad)
+
+Separate I2S audio amplifier boards were available, but the missing component was a way
+to control the volume from physical inputs like buttons.
+
+I modified my USB HID gamepad
+code to send the  'Consumer Control' volume events much the same way as USB keyboards do.
+Whilst this worked on Desktop Linux OSs like RPi OS, it didn't work on the 'Lite' versions
+of the OS that I typically use in my Retro mod projects. 
+
+Something was missing, so I developed
+[this daemon](https://github.com/neildavis/alsa_volume_from_usb_hid) to overcome this problem.
+
+### TM1637 4 x 7-Segment LED display driver for Raspberry Pi
+
+I needed a driver for this simple device on the Raspberry Pi. Having not found a good usable version
+I decided to write one myself to 'bit bang' the protocol described in the component's datasheet
+using the RPi's GPIO pins.
+
+Many GPIO based drivers like this require a particular GPIO library, of which there are several,
+e.g. [wiringPi](https://github.com/WiringPi/WiringPi),
+[pigpio](http://abyz.me.uk/rpi/pigpio/) &
+[libgpiod](https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/)
+
+For convenience I decided to develop my driver 'agnostic' to any underlying GPIO library.
+This was a fun way to learn about
+[dynamic library loading](https://tldp.org/HOWTO/Program-Library-HOWTO/dl-libraries.html)
+under Linux whilst relieving clients of a build-time link dependency on any particular 
+GPIO library.
+
+[](https://github.com/neildavis/lib_tm1637_rpi)
 
 ## iOS Stuff
 
